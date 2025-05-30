@@ -1,0 +1,7 @@
+.marquee-container p {
+  font-size: 20rem;
+  color: #fdcc1b;
+  font-weight: bold;
+  margin-bottom: 0;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
