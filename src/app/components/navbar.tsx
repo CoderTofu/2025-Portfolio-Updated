@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="w-full flex justify-center">
+    <nav className="absolute top-0 w-full flex justify-center z-50">
       <div className="w-full flex justify-between items-center py-4 px-4 sm:px-8 lg:px-12 max-w-[1500px]">
         <div className="flex items-center gap-4">
           <img
