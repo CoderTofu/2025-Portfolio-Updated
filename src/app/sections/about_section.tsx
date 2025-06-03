@@ -20,10 +20,21 @@ export default function AboutSection() {
                   Front-End Developer <br /> & CS Student
                 </p>
               </div>
-              <div className="explore">
-                <a href="#">Explore LinkedIn</a>
-                <img src="/assets/link-svg.svg" alt="link" />
-              </div>
+              <a
+                href="https://www.linkedin.com/in/paolo-dionisio/"
+                className="animate-link-hk cursor-pointer"
+              >
+                <p className="flex items-center gap-1">
+                  Explore LinkedIn
+                  <span>
+                    <img
+                      className="ml-4 w-4"
+                      src="/assets/link-svg.svg"
+                      alt=""
+                    />
+                  </span>
+                </p>
+              </a>
             </div>
           </div>
           {/* Right Side */}
