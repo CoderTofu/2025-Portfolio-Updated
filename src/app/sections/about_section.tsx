@@ -3,9 +3,9 @@ import "../custom_css/about_section.css";
 export default function AboutSection() {
   return (
     <section className="about-section" id="about">
-      <main className="about-content">
+      <main className="about-content px-[1rem] md:px-[5rem]">
         <div className="about-header">
-          <h1 className="font-1">About</h1>
+          <h1 className="font-1 text-[4rem] md:text-[8rem]">About</h1>
         </div>
         <div className="about-body">
           {/* Left Side */}
@@ -16,9 +16,7 @@ export default function AboutSection() {
             </div>
             <div className="titles font-3">
               <div>
-                <p>
-                  Front-End Developer <br /> & CS Student
-                </p>
+                <p>Front-End Developer & CS Student</p>
               </div>
               <a
                 href="https://www.linkedin.com/in/paolo-dionisio/"

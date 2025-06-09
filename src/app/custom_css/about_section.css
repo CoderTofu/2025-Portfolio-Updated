@@ -14,18 +14,17 @@
 
 .about-content {
   margin: 100px 0;
-  padding: 0 5rem;
 }
+
 
 .about-header {
   padding: 0 1rem 0 1rem;
   width: 100%;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid #c99292;
 }
 
 .about-header h1 {
   font-weight: 800;
-  font-size: 8rem;
 }
 
 .about-body {
@@ -78,12 +77,21 @@
     max-width: 100%;
   }
 
+  .titles {
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 20px;
+  }
+
+  .titles p {
+    width: 100%;
+  }
+
   .right-side {
     width: 100%;
   }
 
   .about-content {
-    margin: 100px 0;
-    padding: 0 5rem;
+    margin: 50px 0;
   }
 }
