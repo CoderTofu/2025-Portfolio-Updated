@@ -12,7 +12,7 @@ const fadeUpLoadVariants = {
 
 export default function LandingSection() {
   return (
-    <section className="w-full h-[700px] md:h-screen bg-radial-[at_50%_50%] from-gray-200 to-gray-500 relative overflow-hidden">
+    <section className="w-full h-screen bg-radial-[at_50%_50%] from-gray-200 to-gray-500 relative overflow-hidden">
       <div className="marquee-container w-full">
         <Marquee className="p-0">
           <p className="font-2">Hello, I'm Juan Paolo B. Dionisio! &nbsp;</p>
@@ -23,7 +23,7 @@ export default function LandingSection() {
       </div>
 
       <motion.img
-        className="absolute bottom-0 left-1/2 transform -translate-x-1/2 z-10 h-[700px] md:h-screen w-auto max-w-none object-cover"
+        className="absolute bottom-0 left-1/2 transform -translate-x-1/2 z-10 h-screen w-auto max-w-none object-cover"
         src={"/assets/nobg.png"}
         alt="Landing Image"
         variants={fadeUpLoadVariants}

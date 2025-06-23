@@ -1,4 +1,5 @@
 import "../custom_css/contact_section.css";
+import Marquee from "react-fast-marquee";
 
 export default function ContactSection() {
   return (
@@ -63,7 +64,9 @@ export default function ContactSection() {
       </div>
 
       <div className="big-text">
-        <h1 className="font-2">CoderTofu</h1>
+        <h1 className="font-2" style={{ whiteSpace: "nowrap" }}>
+          CoderTofuCoderTofuCoderTofu
+        </h1>
       </div>
     </section>
   );
