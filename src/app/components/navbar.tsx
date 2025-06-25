@@ -7,7 +7,7 @@ export default function Navbar() {
     <motion.nav
       className="absolute top-0 w-full flex justify-center z-50"
       initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1, transition: { delay: 0.2, duration: 1 } }}
+      whileInView={{ opacity: 1, transition: { delay: 0.2, duration: 1.3 } }}
       viewport={{ once: false, amount: 0.2 }}
     >
       <div className="w-full flex justify-between items-center py-4 px-4 sm:px-8 lg:px-12 max-w-[1500px]">

@@ -3,14 +3,14 @@ import "../custom_css/about_section.css";
 export default function AboutSection() {
   return (
     <section className="about-section" id="about">
-      <main className="about-content px-[1rem] md:px-[5rem]">
+      <main className="about-content px-[2rem] md:px-[5rem]">
         <div className="about-header">
-          <h1 className="font-1 text-[4rem] md:text-[8rem]">About</h1>
+          <h1 className="font-1 text-8xl md:text-16xl">About</h1>
         </div>
         <div className="about-body">
           {/* Left Side */}
-          <div className="left-side sides">
-            <div className="font-1">
+          <div className="left-side sides text-">
+            <div className="font-1 text-2xl md:text-4xl">
               Constantly exploring new technologies and ideas, both in web
               development and beyond. Let’s build something amazing together!
             </div>
@@ -37,7 +37,7 @@ export default function AboutSection() {
           </div>
           {/* Right Side */}
           <div className="right-side sides">
-            <p className="font-3 text-base md:text-sm">
+            <p className="font-3 text-lg md:text-xl">
               I am a 3rd-year Computer Science student at Pamantasan ng Lungsod
               ng Maynila, specializing in frontend web development.
               <br /> <br />
@@ -47,7 +47,7 @@ export default function AboutSection() {
                 <span style={{ color: "#4285F4" }}>D</span>
                 <span style={{ color: "#34A853" }}>S</span>
                 <span style={{ color: "#EA4335" }}>C</span>
-              </span>{" "}
+              </span>
               PLM, I have led multiple projects that contributed to the
               organization’s initiatives, further honing my technical and
               leadership skills.
