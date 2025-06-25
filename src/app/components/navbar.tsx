@@ -1,6 +1,15 @@
+"use client";
+
+import { motion } from "framer-motion";
+
 export default function Navbar() {
   return (
-    <nav className="absolute top-0 w-full flex justify-center z-50">
+    <motion.nav
+      className="absolute top-0 w-full flex justify-center z-50"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1, transition: { delay: 0.2, duration: 1 } }}
+      viewport={{ once: false, amount: 0.2 }}
+    >
       <div className="w-full flex justify-between items-center py-4 px-4 sm:px-8 lg:px-12 max-w-[1500px]">
         <div className="flex items-center gap-4">
           <img
@@ -21,6 +30,6 @@ export default function Navbar() {
           </a>
         </div>
       </div>
-    </nav>
+    </motion.nav>
   );
 }

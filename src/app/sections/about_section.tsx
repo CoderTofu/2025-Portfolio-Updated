@@ -20,9 +20,9 @@ export default function AboutSection() {
               </div>
               <a
                 href="https://www.linkedin.com/in/paolo-dionisio/"
-                className="animate-link-hk cursor-pointer"
+                className="cursor-pointer"
               >
-                <p className="flex items-center gap-1">
+                <p className="flex items-center gap-1 hover:pl-2 transition-all opacity-95 duration-300">
                   Explore LinkedIn
                   <span>
                     <img
@@ -37,7 +37,7 @@ export default function AboutSection() {
           </div>
           {/* Right Side */}
           <div className="right-side sides">
-            <p className="font-3">
+            <p className="font-3 text-base md:text-sm">
               I am a 3rd-year Computer Science student at Pamantasan ng Lungsod
               ng Maynila, specializing in frontend web development.
               <br /> <br />

@@ -7,12 +7,21 @@ import Separator from "../components/separator";
 
 const fadeUpLoadVariants = {
   hidden: { opacity: 0, y: 50 },
-  visible: { opacity: 1, y: 0, transition: { duration: 1.2, ease: "easeOut" } },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 1.2, ease: "easeInOut" },
+  },
 };
 
 export default function LandingSection() {
   return (
-    <section className="w-full h-screen bg-radial-[at_50%_50%] from-gray-200 to-gray-500 relative overflow-hidden">
+    <motion.section
+      className="w-full h-screen bg-radial-[at_50%_50%] from-gray-200 to-gray-500 relative overflow-hidden"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1, transition: { delay: 0.2, duration: 1 } }}
+      viewport={{ once: false, amount: 0.1 }}
+    >
       <div className="marquee-container w-full">
         <Marquee className="p-0">
           <p className="font-2">Hello, I'm Juan Paolo B. Dionisio! &nbsp;</p>
@@ -29,10 +38,10 @@ export default function LandingSection() {
         variants={fadeUpLoadVariants}
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true }}
+        viewport={{ once: false }}
       />
 
       <Separator />
-    </section>
+    </motion.section>
   );
 }

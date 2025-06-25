@@ -1,5 +1,4 @@
 import "../custom_css/contact_section.css";
-import Marquee from "react-fast-marquee";
 
 export default function ContactSection() {
   return (
