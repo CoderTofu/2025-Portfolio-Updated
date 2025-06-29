@@ -1,3 +1,5 @@
+"use client";
+
 import "../custom_css/about_section.css";
 
 export default function AboutSection() {

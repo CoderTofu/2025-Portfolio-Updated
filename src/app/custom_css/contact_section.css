@@ -10,16 +10,6 @@
   background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
 }
 
-
-.big-text {
-  position: absolute;
-  bottom: 0;
-  font-size: 40rem;
-  transform: translateY(35%);
-  opacity: 10%;
-  user-select: none;
-}
-
 .contact-content {
   margin-top: 100px;
 }

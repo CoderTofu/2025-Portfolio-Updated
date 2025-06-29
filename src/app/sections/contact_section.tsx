@@ -61,12 +61,6 @@ export default function ContactSection() {
           ©2025 Paolo Dionisio. ALL RIGHTS RESERVED
         </div>
       </div>
-
-      <div className="big-text">
-        <h1 className="font-2" style={{ whiteSpace: "nowrap" }}>
-          CoderTofuCoderTofuCoderTofu
-        </h1>
-      </div>
     </section>
   );
 }
