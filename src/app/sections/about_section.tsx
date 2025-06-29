@@ -12,7 +12,10 @@ export default function AboutSection() {
         <div className="about-body">
           {/* Left Side */}
           <div className="left-side sides text-">
-            <div className="font-1 text-2xl md:text-4xl">
+            <div
+              className="font-1 text-2xl md:text-4xl"
+              style={{ lineHeight: "1.2" }}
+            >
               Constantly exploring new technologies and ideas, both in web
               development and beyond. Let’s build something amazing together!
             </div>

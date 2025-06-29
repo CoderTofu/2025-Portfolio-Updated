@@ -3,17 +3,17 @@ import "../custom_css/contact_section.css";
 export default function ContactSection() {
   return (
     <section className="contact-section" id="contact">
-      <div className="contact-content">
+      <div className="contact-content m-10">
         {/* Header */}
         <div className="contact-header">
           <div className="contact-slogan">
-            <h2 className="font-1">
-              Great things can happen with a simple{" "}
-              <span className="bold">"hello!"</span>
+            <h2 className="font-1 text-center md:text-left">
+              Great things can happen with a simple&nbsp;
+              <span className="bold">hello!</span>
             </h2>
           </div>
           <a
-            className="contact-button ml-20 animate-link-hk"
+            className="contact-button ml-20 animate-link-hk hidden lg:flex"
             href="mailto:kioskpaolo@protonmail.com"
           >
             <p className="font-3">Contact Me</p>
@@ -22,16 +22,12 @@ export default function ContactSection() {
         </div>
 
         {/* Socials */}
-        <div className="contact-socials">
+        <div className="contact-socials flex-col sm:flex-row">
           {/* Left Part */}
           <div className="contact-info">
             <a href="#" className="font-3">
               codertofu
             </a>
-            <p className="font-3">
-              General Luna, corner Muralla St,
-              <br /> Intramuros, Manila, 1002 Metro Manila
-            </p>
             <a href="mailto:kioskpaolo@protonmail.com" className="font-3">
               kioskpaolo@protonmail.com
             </a>

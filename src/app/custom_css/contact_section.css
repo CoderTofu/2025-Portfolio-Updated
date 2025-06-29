@@ -31,17 +31,18 @@
 }
 
 .contact-button {
-  display: flex;
   color: #000;
   text-decoration: none;
   align-items: center;
   justify-content: center;
   background-color: white;
-  padding: 20px 30px;
-  border-radius: 50px;
+  padding: 15px 30px;
+  border-radius: 30px;
 }
 
 .contact-button p {
+  text-wrap: nowrap;
+  font-size: .9rem;
   margin-right: 20px;
 }
 
