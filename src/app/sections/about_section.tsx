@@ -43,29 +43,32 @@ export default function AboutSection() {
           {/* Right Side */}
           <div className="right-side sides">
             <p className="font-3 text-lg md:text-xl">
-              I am a 3rd-year Computer Science student at Pamantasan ng Lungsod
-              ng Maynila, specializing in frontend web development.
+              I am a Computer Science student at Pamantasan ng Lungsod ng
+              Maynila with a strong foundation in frontend web development and
+              experience in business analysis.
               <br /> <br />
-              As the Web Development Lead for the{" "}
+              As the former Web Development Lead for the{" "}
               <span className="bold">
                 <span style={{ color: "#FBBC05" }}>G</span>
                 <span style={{ color: "#4285F4" }}>D</span>
                 <span style={{ color: "#34A853" }}>S</span>
                 <span style={{ color: "#EA4335" }}>C</span>
-              </span>
-              PLM, I have led multiple projects that contributed to the
-              organization’s initiatives, further honing my technical and
-              leadership skills.
+              </span>{" "}
+              PLM, I led multiple projects that supported the organization’s
+              initiatives, sharpening both my technical and leadership skills.
               <br /> <br />
-              Additionally, I have successfully led various academic projects,
-              demonstrating strong teamwork and problem-solving abilities. My
-              experience as a volunteer technical director for major school
-              events has also strengthened my ability to handle high-pressure
-              tasks efficiently.
+              I recently completed an internship as a Business Analyst, where I
+              contributed to QA testing, data migration, user documentation, and
+              client coordination across multiple system development projects.
               <br /> <br />
-              Currently, I am seeking an internship opportunity to apply my
-              expertise, expand my knowledge, and contribute to impactful
-              projects.
+              Beyond academics, I have successfully led various school and
+              personal projects, demonstrating strong teamwork, adaptability,
+              and problem-solving abilities. My background also includes serving
+              as a volunteer technical director for major university events,
+              honing my ability to perform under pressure.
+              <br /> <br />I am eager to explore new opportunities where I can
+              apply my skills, continue learning, and contribute to impactful
+              work.
             </p>
           </div>
         </div>
